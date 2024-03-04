@@ -1,0 +1,156 @@
+/* Add this CSS to your stylesheet or within your React component */
+body{
+
+    background-image: linear-gradient(wheat,white);
+}
+
+
+#main {
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  h3 {
+    font-weight: "100px";
+  }
+  
+  .btn {
+    margin-right: 10px;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  /* Add this CSS to your stylesheet or within your React component */
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  .question-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .question-icon {
+    font-size: 80px;
+    margin-right: 10px;
+  }
+  
+  .question-number {
+    font-size: 100px;
+    font-weight: bold;
+  }
+  
+  /* Other existing styles... */
+  
+  /* Add this CSS to your stylesheet or within your React component */
+.answer-options {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    font-size: 18px;
+    position: relative;
+  }
+  
+  .correct {
+    background-color: #28a745;
+    color: #fff;
+    margin-top: -25px;
+  }
+  
+  .incorrect {
+    background-color: #dc3545;
+    color: #fff;
+    margin-top: -25px;
+  }
+  
+  .answer-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+  
+  .correct .answer-icon {
+    color: #fff;
+  }
+  
+  .incorrect .answer-icon {
+    color: #fff;
+  }
+  
+  /* Add this CSS to your stylesheet or within your React component */
+#home-page {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1;
+  }
+  
+  /* Add any decorative shape or design styles here */
+
+  /* Result.css */
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .result-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .score-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .score-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .score {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .result-message {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+  }
+  
